@@ -1,0 +1,20 @@
+.banner-container {
+    padding: 4rem 0;
+}
+.banner-main-text h1{
+    font-size: 6rem;
+    color: #FF5139
+}
+#banner-nav-options div {
+    text-align: right;
+}
+#banner-nav-options a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+@media (max-width: 576px) {
+    .banner-main-text h1{
+        font-size: 5rem;
+    }
+}
