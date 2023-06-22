@@ -1,13 +1,4 @@
-/*
 
-.nav-item a{
-    padding: 0 2rem;
-    text-transform: uppercase;
-    color:#FF5139;
-    text-decoration: none;
-    letter-spacing: .25rem;
-    font-weight: bold;
-}  */
 .navbar {
     min-height: 100px;
     display: flex;

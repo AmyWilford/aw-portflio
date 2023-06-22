@@ -1,14 +1,27 @@
+.custom-primary {
+    color: #FF5139
+}
+
+.custom-secondary {
+    color:#FFFCF5
+}
+.custom-accent {
+    color: #FFD230
+}
 body {
     background-color:#FFFCF5 ;
+    color: #272626;
 }
 a{
     color: #FF5139;
 }
-hr {
+a:hover {
+    color:#FFD230;
+    transition: color .3s ease;
+}
+
+.section-divider {
     color: #FFD230;
     opacity: 1;
-
-}
-.section-divider {
     border-bottom: 2px solid #FFD230;
 }

@@ -1,0 +1,22 @@
+#contact {
+    height: 65vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#contact h2 {
+    font-size: 3rem;
+}
+hr{
+    /* border-bottom: 1px solid #272626; */
+    opacity: 1;
+    color: #272626
+}
+/* .contact-container {
+    background-color: #041E7D;
+    color: #FFFCF5
+} */
+
+.contact-img-container{
+    background-color: #FF5139;
+}

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "./Header";
 import Banner from "./Banner";
 import About from "./About";
+import Contact from "./Contact";
 import Footer from "./Footer";
 
 export default function Container() {
@@ -12,6 +13,7 @@ export default function Container() {
       <Header />
       <Banner />
       <About />
+      <Contact />
       <Footer />
     </>
   );

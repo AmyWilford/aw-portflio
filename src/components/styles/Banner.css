@@ -8,15 +8,27 @@
     font-size: 6rem;
     color: #FF5139;
     text-shadow: 2px 2px 3px grey;
-
 }
 
-#banner-nav-options div {
+.banner-nav-options div {
     text-align: right;
 }
-#banner-nav-options a {
+.banner-nav-options a {
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: bold;
+}
+
+.banner-nav-options a:hover {
+    color: #FFD230;
+    transition: color .54s ease;
+
+}
+
+.banner-nav-options hr {
+    color: #FFD230;
+    opacity: 1;
+    border-bottom: 1px solid #FFD230;
 }
 
 
