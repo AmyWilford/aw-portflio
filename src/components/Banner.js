@@ -3,19 +3,17 @@ import "./styles/Banner.css";
 
 export default function Banner() {
   return (
-    <div className="banner-container">
-      <div>
-        <div className="text-uppercase ">Web Developer</div>
+    <section className="banner-container px-4">
+        <div className="fw-bold text-uppercase">Web Developer</div>
         <div className="banner-main-text">
           <h1>amy wilford.</h1>
         </div>
-      </div>
       <div className="row m-0">
-        <div className="col-7"></div>
-        <div className="col-4">
+        <div className="col-sm-8 col-6"></div>
+        <div className="col-sm-4 col-6 pt-4">
           <div id="banner-nav-options">
             <div>
-              <a href="#">About Me</a>
+              <a href="#about">About Me</a>
             </div>
             <hr></hr>
             <div>
@@ -28,6 +26,6 @@ export default function Banner() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

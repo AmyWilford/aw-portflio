@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Header from "./Header";
+import Banner from "./Banner";
+import About from "./About";
 import Footer from "./Footer";
 
 export default function Container() {
@@ -8,6 +10,8 @@ export default function Container() {
   return (
     <>
       <Header />
+      <Banner />
+      <About />
       <Footer />
     </>
   );

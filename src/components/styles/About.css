@@ -1,0 +1,37 @@
+
+#bio {
+    color:#FF5139;
+    font-size: 1.5rem;
+}
+.headshot-container img {
+    border-radius: 50%;
+    max-width: 300px;
+    padding: 1rem;
+}
+.section-divider-mobile {
+    display: none;
+}
+.about-list-container {
+    column-count: 3;
+}
+
+@media (max-width: 768px) {
+    .section-divider-mobile {
+        display: block;
+    }
+    .section-divider-web {
+        display: none;
+    }
+    #bio {
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    #bio {
+        font-size: 1.2rem;
+    }
+    .about-list-container {
+        column-count: 2;
+    }
+}
+

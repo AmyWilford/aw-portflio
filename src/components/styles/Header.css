@@ -18,7 +18,7 @@
     
   }
   .navbar a {
-    color: #FF5139;
+    /* color: #FF5139; */
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: .15rem;
@@ -74,9 +74,7 @@
       top: 100%;
       left: 0;
       right: 0;
-
     }
-  
     .navbar-links.open {
       display: flex;
     }

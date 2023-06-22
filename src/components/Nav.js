@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className={`navbar-links ${isMobileNavOpen ? "open" : ""}`}>
         <ul>
           <li>
-            <a href="/">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
             <a href="/">Portfolio</a>

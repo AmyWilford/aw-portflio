@@ -1,0 +1,14 @@
+body {
+    background-color:#FFFCF5 ;
+}
+a{
+    color: #FF5139;
+}
+hr {
+    color: #FFD230;
+    opacity: 1;
+
+}
+.section-divider {
+    border-bottom: 2px solid #FFD230;
+}
