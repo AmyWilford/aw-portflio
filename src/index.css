@@ -19,9 +19,3 @@ a:hover {
     color:#FFD230;
     transition: color .3s ease;
 }
-
-.section-divider {
-    color: #FFD230;
-    opacity: 1;
-    border-bottom: 2px solid #FFD230;
-}
