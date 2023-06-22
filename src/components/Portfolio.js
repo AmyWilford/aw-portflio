@@ -1,8 +1,11 @@
 import React from "react";
+import './styles/Portfolio.css';
 
 export default function Portfolio({ projects }) {
   return (
-    <section className="ps-4 pe-4">
+    <div className="portfolio-container">
+
+    <section id="portfolio" className="ps-4 pe-4">
       <hr className="section-divider my-5"></hr>
       <div className="row ">
         {projects.map((project) => (
@@ -39,5 +42,7 @@ export default function Portfolio({ projects }) {
         ))}
       </div>
     </section>
+    </div>
+
   );
 }

@@ -4,7 +4,7 @@ import "./styles/Contact.css";
 export default function Contact() {
   return (
     <>
-      <div className="row contact-container mt-5 gx-0">
+      <div className="row contact-container gx-0">
         <div className="col-md-7">
           <section id="contact" className="ps-4 pe-4">
             <h2 className="custom-primary fw-bold">get in touch.</h2>
