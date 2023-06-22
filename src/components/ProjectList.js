@@ -1,7 +1,7 @@
 const ProjectList = [
     {
         id: 1, 
-        src: "",
+        src: "./assets/img-ratethegords.png",
         altTag: "Rate The Gords", 
         title: "Rate The Gords", 
         details: "A place to rate Canada's iconic Gords", 
@@ -10,7 +10,7 @@ const ProjectList = [
     },
     {
         id: 2, 
-        src: "",
+        src: "./assets/img-boq.png",
         altTag: "Bay of Quinte, Green Party of Ontario", 
         title: "Bay of Quinte, Green Party of Ontario", 
         details: "A custom wordpress theme for Bay of Quinte's Green Party of Ontario riding", 
@@ -19,7 +19,7 @@ const ProjectList = [
     },
     {
         id: 3, 
-        src: "",
+        src: "./assets/img-cuecards.png",
         altTag: "CueCards: Online Study Tool", 
         title: "Cue Cards: Online Study Tool", 
         details: "Create your own cuecards on any topic and quiz yourself to test your knowledge", 
@@ -28,7 +28,7 @@ const ProjectList = [
     },
     {
         id: 4, 
-        src: "",
+        src: "./assets/img-gmm.png",
         altTag: "Girl Meet Money: Blueprint Diagnostic Quiz", 
         title: "Girl Meet Money: Blueprint Diagnostic Quiz", 
         details: "Custom online quiz widget embedded to client shopify site", 
@@ -37,7 +37,7 @@ const ProjectList = [
     },
     {
         id: 5, 
-        src: "",
+        src: "./assets/img-pkew.png",
         altTag: "PkewX3 Artist Promo Site", 
         title: "PkewX3", 
         details: "Custom musician promo site for PkewX3. Up to date show details via Bands in Town API integreation", 
@@ -46,7 +46,7 @@ const ProjectList = [
     },
     {
         id: 6, 
-        src: "",
+        src: "./assets/img-javascriptmugs.png",
         altTag: "JavaScript: Custom Mugs", 
         title: "JavaScript: Custom Mugs", 
         details: "A fullstack e-commerce store for user designed customized mugs", 
@@ -54,3 +54,5 @@ const ProjectList = [
         url:"https://whispering-inlet-47426.herokuapp.com/",
     },
 ]
+
+export default ProjectList;
