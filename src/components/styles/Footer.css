@@ -1,0 +1,29 @@
+/* .footer {
+    position: sticky;
+    text-align: right;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+  
+} */
+.slide-div {
+    text-align: right;
+    transition: transform 0.3s ease-in-out;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem 0;
+  }
+  
+  .slide-div a {
+    color:#041E7D;
+    text-decoration: none;
+  }
+  .visible {
+    transform: translateY(0);
+  }
+  
+  .hidden {
+    transform: translateX(100%);
+  }

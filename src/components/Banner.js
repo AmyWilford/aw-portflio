@@ -1,7 +1,9 @@
-import React from "react";
+// import React, { useState, useEffect } from "react";
 import "./styles/Banner.css";
 
 export default function Banner() {
+
+
   return (
     <section className="banner-container ps-4 pe-4">
       <div className="fw-bold text-uppercase lead">Web Developer</div>
