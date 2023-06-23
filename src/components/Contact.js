@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <>
       <div className="row contact-container gx-0">
-        <div className="col-md-7">
+        <div className="col-md-7 col-12 order-md-1 order-2">
           <section id="contact" className="ps-4 pe-4">
             <h2 className="custom-primary fw-bold">get in touch.</h2>
             <div className="py-5">
@@ -39,7 +39,7 @@ export default function Contact() {
             </div>
           </section>
         </div>
-        <div className="col-md-5 col-12 contact-img-container"></div>
+        <div className="col-md-5 col-12 order-md-2 order-1 contact-img-container"></div>
       </div>
     </>
   );

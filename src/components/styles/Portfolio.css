@@ -1,3 +1,8 @@
 .portfolio-container {
-    background-color: #FFD230;
+    /* background-color: #FFD230; */
+}
+
+.portfolio-section-divider {
+    margin: 10rem 0;
+
 }

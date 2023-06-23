@@ -5,7 +5,7 @@ export default function Banner() {
 
 
   return (
-    <section className="banner-container ps-4 pe-4">
+    <section className="banner-container pe-4">
       <div className="fw-bold text-uppercase lead">Web Developer</div>
       <div className="banner-main-text">
         <h1>amy wilford.</h1>

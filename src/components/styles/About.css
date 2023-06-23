@@ -3,14 +3,18 @@
     color:#FF5139;
     font-size: 1.3rem;
 }
+.headshot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .headshot-container img {
     border-radius: 50%;
     max-width: 300px;
     padding: 1rem;
+
 }
-.section-divider-mobile {
-    display: none;
-}
+
 .about-list-container {
     column-count: 3;
 }
@@ -70,12 +74,6 @@ button{
   }
 
 @media (max-width: 768px) {
-    .section-divider-mobile {
-        display: block;
-    }
-    .section-divider-web {
-        display: none;
-    }
     #bio {
         text-align: center;
     }

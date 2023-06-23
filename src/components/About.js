@@ -20,18 +20,26 @@ export default function About() {
           a relentless drive to find innovative solutions.
             </div>
          
-          <hr className="section-divider section-divider-web"></hr>
+          {/* <hr className="section-divider section-divider-web"></hr> */}
         </div>
-        <div className="col-md-5 col-12 headshot-container text-center pb-5">
+        <div className="col-md-5 col-12 headshot-container text-center">
           <img className="img-fluid" src={headshot} alt="profile" />
           <div>
             <button>view resume</button>
           </div>
         </div>
-        <hr className="section-divider section-divider-mobile"></hr>
+        {/* <hr className="section-divider section-divider-mobile"></hr> */}
       </div>
       <div className="my-4">
-        <h4 className="fw-bold text-uppercase my-4">Technical Skills</h4>
+      <div className="row d-flex align-items-center">
+          <div className="col-md-4 order-md-1 order-2">
+            <h4 className="text-uppercase my-4 fw-bold">Technical Skills:</h4>
+          </div>
+          <div className="col-md-8 order-md-2 order-1">
+            <hr className="section-divider"></hr>
+          </div>
+        </div>
+        {/* <h4 className="fw-bold text-uppercase my-4">Technical Skills</h4> */}
         <div>
           <h5 className="my-4 custom-primary">Languages & Frameworks:</h5>
           <div className="about-list-container">

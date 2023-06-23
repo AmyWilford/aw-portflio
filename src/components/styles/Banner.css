@@ -3,9 +3,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 4rem;
 }
 .banner-main-text h1{
-    font-size: 6rem;
+    font-size: 8rem;
     color: #FF5139;
     text-shadow: 2px 2px 3px grey;
 }
@@ -31,8 +32,15 @@
     border-bottom: 1px solid #FFD230;
 }
   
-
+@media (max-width: 768px){
+    .banner-main-text h1 {
+        font-size: 6rem;
+    }
+}
 @media (max-width: 576px) {
+    .banner-container {
+        padding-left: 1.5rem;
+    }
     .banner-main-text h1{
         font-size: 5rem;
     }
