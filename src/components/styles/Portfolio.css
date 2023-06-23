@@ -1,8 +1,40 @@
-.portfolio-container {
-    /* background-color: #FFD230; */
-}
-
 .portfolio-section-divider {
     margin: 10rem 0;
 
+}
+.project-image {
+    width: 80%;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 1px 1px 2px lightgray;
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.project-image:hover {
+    -webkit-filter: brightness(100%);
+
+}
+.project-title {
+    padding: .75rem 0;
+    font-weight: bold;
+    letter-spacing: .05rem;
+    /* font-family: 'Ysabeau Infant', sans-serif; */
+
+}
+/* .project-details {
+    font-style: italic;
+    padding: .25rem 0;
+} */
+.project-divider {
+    color: #FFD230;
+    opacity: 1;
+    border-bottom: 1px solid #FFD230;
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+    margin: .25rem 0;
 }

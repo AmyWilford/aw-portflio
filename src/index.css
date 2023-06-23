@@ -8,9 +8,19 @@
 .custom-accent {
     color: #FFD230
 }
+
 body {
     background-color:#FFFCF5 ;
     color: #272626;
+    font-family: 'Source Sans 3', sans-serif;
+    ;
+}
+h1, h2 {
+    font-family: 'Lora', serif;
+}
+h4 {
+    font-family: 'Ysabeau Infant', sans-serif;
+
 }
 a{
     color: #FF5139;

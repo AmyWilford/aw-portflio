@@ -7,7 +7,7 @@ export default function About() {
     <section id="about" className="ps-4 pe-4">
       <h4 className="text-uppercase my-4 fw-bold">about me</h4>
 
-      <div className="row d-flex align-items-center">
+      <div className="row d-flex align-items-center justify-content-center">
         <div className="col-md-7 col-12">
             <div className="pb-5" id="bio">
             Experienced Web Developer fueled by passion and equipped with skills
@@ -22,7 +22,7 @@ export default function About() {
          
           {/* <hr className="section-divider section-divider-web"></hr> */}
         </div>
-        <div className="col-md-5 col-12 headshot-container text-center">
+        <div className="col-sm-5 col-12 headshot-container text-center">
           <img className="img-fluid" src={headshot} alt="profile" />
           <div>
             <button>view resume</button>
@@ -32,10 +32,10 @@ export default function About() {
       </div>
       <div className="my-4">
       <div className="row d-flex align-items-center">
-          <div className="col-md-4 order-md-1 order-2">
+          <div className="col-md-4 col-sm-5 order-sm-1 order-2">
             <h4 className="text-uppercase my-4 fw-bold">Technical Skills:</h4>
           </div>
-          <div className="col-md-8 order-md-2 order-1">
+          <div className="col-md-8 col-sm-7 order-sm-2 order-1">
             <hr className="section-divider"></hr>
           </div>
         </div>

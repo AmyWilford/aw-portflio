@@ -2,6 +2,11 @@
 #bio {
     color:#FF5139;
     font-size: 1.3rem;
+
+}
+.lead {
+    font-family: 'Ysabeau Infant', sans-serif;
+
 }
 .headshot-container {
     display: flex;
@@ -36,6 +41,7 @@ button{
     text-transform: uppercase;
     letter-spacing: .1rem;
     font-weight: bold;
+
   }
   
   button:hover {
@@ -73,11 +79,6 @@ button{
     top: 1px;
   }
 
-@media (max-width: 768px) {
-    #bio {
-        text-align: center;
-    }
-}
 @media (max-width: 576px) {
     #bio {
         font-size: 1.1rem;
