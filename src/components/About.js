@@ -45,22 +45,21 @@ export default function About() {
           <div className="about-list-container">
             <ul>
               <li>JavaScriptES6+</li>
-              <li>MySQL</li>
-              <li>MongoDB</li>
-              <li>GraphQL</li>
-              <li>Express</li>
+              <li>JQuery</li>
+              <li>PHP</li>
               <li>React.js</li>
               <li>React Native</li>
-              <li>Node.js</li>
-              <li>PHP</li>
               <li>REST API</li>
-              <li>JQuery</li>
-              <li>Handlebars</li>
-              <li>HTML</li>
+              <li>Bootstrap</li>
               <li>CSS3</li>
               <li>SASS</li>
-              <li>Bootstrap</li>
-              <li>Bulma</li>
+              <li>HTML</li>
+              <li>Handlebars</li>
+              <li>Express</li>
+              <li>GraphQL</li>
+              <li>MongoDB</li>
+              <li>MySQL</li>
+              <li>Node.js</li>
               <li>Wordpress</li>
             </ul>
           </div>
@@ -69,7 +68,7 @@ export default function About() {
           <h5 className="my-4 custom-primary">Applications & Industry Processes:</h5>
           <div className="about-list-container">
             <ul>
-              <li>Agile</li>
+              <li>Agile Methodology</li>
               <li>TDD</li>
               <li>Github</li>
               <li>Heroku</li>
