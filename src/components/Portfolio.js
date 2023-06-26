@@ -20,11 +20,15 @@ export default function Portfolio({ projects }) {
               className=" col-lg-4 col-md-6 col-12 d-flex flex-column align-content-center justify-content-between px-3 mb-5 text-center"
             >
               <div>
-                <img
-                  className="project-image img-fluid"
-                  src={project.src}
-                  alt={project.altTag}
-                ></img>
+                <a  href={project.url}
+                    target="_blank"
+                    rel="noreferrer">
+                  <img
+                    className="project-image img-fluid"
+                    src={project.src}
+                    alt={project.altTag}
+                  ></img>
+                </a>
                 <div className="project-title">{project.title}</div>
                 <div className="project-details p-2">{project.details}</div>
                 <div className="project-specs p-2">{project.specs}</div>

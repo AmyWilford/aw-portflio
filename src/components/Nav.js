@@ -23,7 +23,7 @@ const Navbar = () => {
   }, []);
   return (
     <nav className="navbar" ref={navbarRef}>
-      <div className="navbar-logo">|aw|</div>
+      <div className="navbar-logo">{/* <span>|aw|</span> */}</div>
 
       <div className={`navbar-links ${isMobileNavOpen ? "open" : ""}`}>
         <ul>
