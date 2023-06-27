@@ -16,7 +16,7 @@ export default function About() {
             background to the table. From teaching and grant writing to
             curriculum management and now, web development, my diverse expertise fuels my fresh
             perspective designing and developing impactful applications and
-            websites. Fuelled by curiosity, I embrace collaboration with an open
+            websites. I embrace collaboration with an open
             mind, infusing creativity into every project while prioritizing
             efficiency and pragmatism. I am unafraid to think boldly,
             transforming ambitious plans into tangible realities. From crafting
