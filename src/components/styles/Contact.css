@@ -1,5 +1,5 @@
 #contact {
-    height: 65vh;
+    height: 50vh;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -12,10 +12,7 @@ hr{
     opacity: 1;
     color: #272626
 }
-/* .contact-container {
-    background-color: #041E7D;
-    color: #FFFCF5
-} */
+
 
 .contact-img-container{
     background-color: #FF5139;
@@ -23,7 +20,5 @@ hr{
 
 @media (max-width: 768px){
     #contact {
-
         height: 20vh;
-
     }}

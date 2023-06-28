@@ -12,13 +12,13 @@ export default function About() {
           <div className="pb-5" id="bio">
             With a decade of professional experience spanning Arts & Culture,
             Education, and Technology sectors, I am a Web Developer who brings a
-            multifaceted background to the table. From teacher, program manager
-            and now, developer, my diverse expertise fuels my fresh perspective
+            multifaceted background to the table. From Teacher, Program Manager
+            and now, Developer, my diverse expertise fuels my fresh perspective
             designing and developing impactful applications and websites. I
             embrace collaboration with an open mind, infusing creativity into
             every project while prioritizing efficiency and utility. I am an
             imaginative problem solver and quick learner with a keen attention
-            who can turn big ideas into tangible realities.
+            to detail who can turn big ideas into tangible realities.
           </div>
 
           {/* <hr className="section-divider section-divider-web"></hr> */}
