@@ -20,3 +20,10 @@ hr{
 .contact-img-container{
     background-color: #FF5139;
 }
+
+@media (max-width: 768px){
+    #contact {
+
+        height: 20vh;
+
+    }}
