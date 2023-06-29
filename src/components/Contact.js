@@ -15,7 +15,9 @@ export default function Contact() {
             <div className="py-5">
               <div className="row gx-0">
                 <div className="col-4 text-uppercase fw-bold">Email</div>
-                <div className="col-8 text-end">wilford.amy@gmail.com</div>
+                <div className="col-8 text-end text-decoration-none">
+                  wilford.amy@gmail.com
+                </div>
               </div>
               <hr></hr>
               <div className="row">
@@ -33,10 +35,7 @@ export default function Contact() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i
-                      className="fa fa-github mx-2"
-                      aria-hidden="true"
-                    ></i>
+                    <i className="fa fa-github mx-2" aria-hidden="true"></i>
                   </a>
                 </div>
               </div>
