@@ -39,7 +39,9 @@
 }
 @media (max-width: 576px) {
     .banner-container {
+        height: 100vh;
         padding-left: 1.5rem;
+        padding-top: 5rem;
     }
     .banner-main-text h1{
         font-size: 5rem;

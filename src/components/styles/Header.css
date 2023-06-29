@@ -55,6 +55,11 @@
   }
   
   @media (max-width: 576px) {
+    .navbar{
+      position: fixed;
+      width: 100%;
+      z-index: 99;
+    }
     .navbar-links {
       display: none;
       flex-direction: column;
