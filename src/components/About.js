@@ -26,11 +26,7 @@ export default function About() {
         <div className="col-md-5 col-12 headshot-container text-center">
           <img className="img-fluid" src={headshot} alt="profile" />
           <div className="d-flex justify-content-center">
-            <a
-              href={resume}
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={resume} target="_blank" rel="noreferrer">
               <button>view resume</button>
             </a>
             <a
@@ -75,6 +71,7 @@ export default function About() {
               <li>REST API</li>
               <li>SASS</li>
               <li>Wordpress</li>
+              <li>XML</li>
             </ul>
           </div>
         </div>
