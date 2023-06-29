@@ -20,6 +20,9 @@ hr{
 i {
     font-size: 2.25rem !important;
 }
+.custom-decoration {
+    text-decoration: none !important;
+}
 @media (max-width: 768px){
     #contact {
         height: 20vh;

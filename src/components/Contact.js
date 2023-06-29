@@ -15,7 +15,7 @@ export default function Contact() {
             <div className="py-5">
               <div className="row gx-0">
                 <div className="col-4 text-uppercase fw-bold">Email</div>
-                <div className="col-8 text-end text-decoration-none">
+                <div className="col-8 text-end custom-decoration">
                   wilford.amy@gmail.com
                 </div>
               </div>
