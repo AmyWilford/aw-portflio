@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/About.css";
 import headshot from "../assets/aw-headshot.png";
-
+import resume from "../assets/AmyWilford-WebDeveloper-Resume.pdf";
 export default function About() {
   return (
     <section id="about" className="ps-4 pe-4">
@@ -23,10 +23,23 @@ export default function About() {
 
           {/* <hr className="section-divider section-divider-web"></hr> */}
         </div>
-        <div className="col-sm-5 col-12 headshot-container text-center">
+        <div className="col-md-5 col-12 headshot-container text-center">
           <img className="img-fluid" src={headshot} alt="profile" />
-          <div>
-            <button>view resume</button>
+          <div className="d-flex justify-content-center">
+            <a
+              href={resume}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>view resume</button>
+            </a>
+            <a
+              href="https://github.com/AmyWilford"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>visit github</button>
+            </a>
           </div>
         </div>
         {/* <hr className="section-divider section-divider-mobile"></hr> */}

@@ -16,8 +16,7 @@
 .headshot-container img {
     border-radius: 50%;
     max-width: 300px;
-    padding: 1rem;
-
+    padding: .75rem;
 }
 
 .about-list-container {
@@ -39,9 +38,9 @@ button{
     transition-duration: 0.4s;
     -webkit-transition-duration: 0.4s; /* Safari */
     text-transform: uppercase;
-    letter-spacing: .1rem;
+    letter-spacing: .05rem;
     font-weight: bold;
-
+  margin: 0 .5rem;
   }
   
   button:hover {

@@ -26,7 +26,7 @@ export default function Contact() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i className="fa fa-2x fa-linkedin mx-2"></i>
+                    <i className="fa fa-linkedin mx-2"></i>
                   </a>
                   <a
                     href="https://github.com/AmyWilford"
@@ -34,7 +34,7 @@ export default function Contact() {
                     rel="noreferrer"
                   >
                     <i
-                      className="fa fa-2x fa-github mx-2"
+                      className="fa fa-github mx-2"
                       aria-hidden="true"
                     ></i>
                   </a>

@@ -17,7 +17,9 @@ hr{
 .contact-img-container{
     background-color: #FF5139;
 }
-
+i {
+    font-size: 2.25rem !important;
+}
 @media (max-width: 768px){
     #contact {
         height: 20vh;
