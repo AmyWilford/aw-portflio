@@ -10,6 +10,15 @@ const ProjectList = [
   },
   {
     id: 2,
+    src: "./assets/img-gmm.png",
+    altTag: "Girl Meet Money: Blueprint Diagnostic Quiz",
+    title: "Girl Meet Money: Blueprint Diagnostic Quiz",
+    details: "A custom online quiz widget embedded to client shopify site",
+    specs: "CSS | HTML | JavaScript",
+    url: "https://girlmeetmoney.com/pages/gmm-diagnostic-quiz",
+  },
+  {
+    id: 3,
     src: "./assets/img-boq.png",
     altTag: "Bay of Quinte, Green Party of Ontario",
     title: "Bay of Quinte, Green Party of Ontario",
@@ -19,7 +28,7 @@ const ProjectList = [
     url: "https://bayofquintegpo.ca/",
   },
   {
-    id: 3,
+    id: 4,
     src: "./assets/img-cuecards.png",
     altTag: "CueCards: Online Study Tool",
     title: "Cue Cards: Online Study Tool",
@@ -27,15 +36,6 @@ const ProjectList = [
       "A site to create your own cuecards on any topic and quiz yourself to test your knowledge",
     specs: "CSS | Express | Javascript | MongoDB | Node.js | React.js",
     url: "https://cuecards-aw22.herokuapp.com/",
-  },
-  {
-    id: 4,
-    src: "./assets/img-gmm.png",
-    altTag: "Girl Meet Money: Blueprint Diagnostic Quiz",
-    title: "Girl Meet Money: Blueprint Diagnostic Quiz",
-    details: "A custom online quiz widget embedded to client shopify site",
-    specs: "CSS | HTML | JavaScript",
-    url: "https://girlmeetmoney.com/pages/gmm-diagnostic-quiz",
   },
   {
     id: 5,
