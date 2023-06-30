@@ -5,7 +5,7 @@ import resume from "../assets/AmyWilford-WebDeveloper-Resume.pdf";
 export default function About() {
   return (
     <section id="about" className="ps-4 pe-4">
-      <h4 className="text-uppercase my-4 fw-bold">about me</h4>
+      <h4 className="text-uppercase py-5 fw-bold">about me</h4>
 
       <div className="row d-flex align-items-center justify-content-center">
         <div className="col-md-7 col-12">

@@ -10,7 +10,10 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleOutsideClick = (event) => {
-      if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+      if (
+        (navbarRef.current && !navbarRef.current.contains(event.target)) ||
+        event.target.classList.contains("nav-item")
+      ) {
         setIsMobileNavOpen(false);
       }
     };
@@ -28,13 +31,19 @@ const Navbar = () => {
       <div className={`navbar-links ${isMobileNavOpen ? "open" : ""}`}>
         <ul>
           <li>
-            <a href="#about">About</a>
+            <a className="nav-item" href="#about">
+              About
+            </a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a className="nav-item" href="#portfolio">
+              Portfolio
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a className="nav-item" href="#contact">
+              Contact
+            </a>
           </li>
         </ul>
       </div>

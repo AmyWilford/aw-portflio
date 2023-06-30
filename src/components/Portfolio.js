@@ -7,7 +7,7 @@ export default function Portfolio({ projects }) {
       <section id="portfolio" className="ps-4 pe-4">
         <div className="row d-flex align-items-center">
           <div className="col-sm-3 order-sm-1 order-2">
-            <h4 className="text-uppercase my-4 fw-bold">my work:</h4>
+            <h4 className="text-uppercase pt-5 pb-4 fw-bold">my work:</h4>
           </div>
           <div className="col-sm-9 order-sm-2 order-1">
             <hr className="section-divider"></hr>
@@ -20,9 +20,7 @@ export default function Portfolio({ projects }) {
               className=" col-lg-4 col-md-6 col-12 d-flex flex-column align-content-center justify-content-between px-3 mb-5 text-center"
             >
               <div>
-                <a  href={project.url}
-                    target="_blank"
-                    rel="noreferrer">
+                <a href={project.url} target="_blank" rel="noreferrer">
                   <img
                     className="project-image img-fluid"
                     src={project.src}
