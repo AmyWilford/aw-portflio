@@ -40,7 +40,7 @@
 }
 @media (max-width: 576px) {
     .project-image {
-        -webkit-filter: brightness(80%);
+        -webkit-filter: brightness(100%);
         -webkit-transition: none;
         -moz-transition: none;
         -o-transition: none;
