@@ -23,6 +23,10 @@ i {
 .custom-decoration {
     text-decoration: none !important;
 }
+.email-at {
+    font-style: italic;
+    color: grey
+}
 @media (max-width: 768px){
     #contact {
         height: 20vh;
