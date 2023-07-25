@@ -38,3 +38,8 @@
     align-self: center;
     margin: .25rem 0;
 }
+@media (max-width: 576px) {
+    .project-image {
+        -webkit-filter: brightness(80%);
+    }
+}
