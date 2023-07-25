@@ -41,5 +41,10 @@
 @media (max-width: 576px) {
     .project-image {
         -webkit-filter: brightness(80%);
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        -ms-transition: none;
+        transition: none;
     }
 }
