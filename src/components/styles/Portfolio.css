@@ -6,12 +6,16 @@
 .project-container{
     margin-bottom: 4rem;
     transition: transform 0.5s ease;
+    max-width: 500px !important;
+
 }
 .project-container:hover {
     transform: scale3d(1.1,1.1, 1);
 }
 .project-image {
     width: 90%;
+    max-width: 300px;
+
 }
 /* .project-image {
     width: 80%;
@@ -51,7 +55,7 @@
 }
 @media (max-width: 576px) {
     .project-container {
-       transition: none
+       transition: none;
     }
     .project-container:hover{
         transform: none;

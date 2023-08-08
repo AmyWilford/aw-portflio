@@ -13,7 +13,7 @@ export default function Portfolio({ projects }) {
             <hr className="section-divider"></hr>
           </div>
         </div>
-        <div className="row my-5">
+        <div className="row my-5 justify-content-center">
           {projects.map((project) => (
             <div
               key={project.id}
