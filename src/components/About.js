@@ -26,7 +26,12 @@ export default function About() {
         <div className="col-md-5 col-12 headshot-container text-center">
           <img className="img-fluid" src={headshot} alt="profile" />
           <div className="d-flex justify-content-center">
-            <a href={resume} target="_blank" rel="noreferrer">
+            <a
+              href={resume}
+              target="_blank"
+              rel="noreferrer"
+              type="application/pdf"
+            >
               <button>view resume</button>
             </a>
             <a
