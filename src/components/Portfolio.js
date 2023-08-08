@@ -17,7 +17,7 @@ export default function Portfolio({ projects }) {
           {projects.map((project) => (
             <div
               key={project.id}
-              className=" col-lg-4 col-md-6 col-12 d-flex flex-column align-content-center justify-content-between px-3 mb-5 text-center"
+              className="project-container col-lg-4 col-md-6 col-12 d-flex flex-column align-content-center justify-content-between px-3 mb-5 text-center"
             >
               <div>
                 <a href={project.url} target="_blank" rel="noreferrer">

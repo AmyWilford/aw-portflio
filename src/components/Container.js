@@ -17,7 +17,7 @@ export default function Container() {
       <About />
       <Portfolio projects={ProjectList}/>
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

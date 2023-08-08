@@ -18,11 +18,11 @@ export default function Banner() {
             <hr className="banner-hr"></hr>
 
             <div>
-              <a href="#portfolio"> My Work</a>
+              <a href="#portfolio"> Portfolio</a>
             </div>
             <hr></hr>
             <div>
-              <a href="#contact">Get in touch</a>
+              <a href="#contact">Contact</a>
             </div>
           </div>
         </div>
