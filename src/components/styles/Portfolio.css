@@ -7,7 +7,6 @@
     margin-bottom: 4rem;
     transition: transform 0.5s ease;
     max-width: 500px !important;
-
 }
 .project-container:hover {
     transform: scale3d(1.1,1.1, 1);
@@ -15,7 +14,6 @@
 .project-image {
     width: 90%;
     max-width: 300px;
-
 }
 /* .project-image {
     width: 80%;
@@ -52,6 +50,10 @@
     justify-self: center;
     align-self: center;
     margin: .25rem 0;
+}
+.coming-soon-color {
+    color: #041E7D;
+    font-style: italic;
 }
 @media (max-width: 576px) {
     .project-container {

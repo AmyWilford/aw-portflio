@@ -17,28 +17,43 @@ export default function Portfolio({ projects }) {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="project-container col-lg-4 col-md-6 col-12 d-flex flex-column align-content-center justify-content-between px-3 "
+              className="col-lg-4 col-md-6 col-12 d-flex flex-column align-content-center justify-content-between px-3 project-container"
             >
               <div className="px-4">
-                <a href={project.url} target="_blank" rel="noreferrer">
+                {project.url !== "" ? (
+                  <a href={project.url} target="_blank" rel="noreferrer">
+                    <img
+                      className="project-image img-fluid"
+                      src={project.src}
+                      alt={project.altTag}
+                    ></img>
+                  </a>
+                ) : (
                   <img
                     className="project-image img-fluid"
                     src={project.src}
                     alt={project.altTag}
                   ></img>
-                </a>
+                )}
+
                 <div className="project-title p-2">{project.title}</div>
                 <div className="project-details p-2">{project.details}</div>
                 <div className="project-specs p-2">{project.specs}</div>
                 <div>
-                  <a
-                    href={project.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-decoration-none text-uppercase p-2 fw-bold"
-                  >
-                    visit site
-                  </a>
+                  {project.url !== "" ? (
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-decoration-none text-uppercase p-2 fw-bold"
+                    >
+                      visit site
+                    </a>
+                  ) : (
+                    <span className="text-decoration-none text-uppercase p-2 fw-bold coming-soon-color">
+                      COMING SOON
+                    </span>
+                  )}
                 </div>
               </div>
             </div>
