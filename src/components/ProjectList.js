@@ -83,7 +83,7 @@ const ProjectList = [
     src: "./assets/img-impactmap.png",
     altTag: "Canadian Ocean Literacy Coalition: Impact Map",
     title: "Canadian Ocean Literacy Coalition: Impact Map",
-    details: "A custom wordpress plugin developed to visually showcase all impact initiatives of the Canadian Ocean Literacy Coalition (COLC) members, and developed to integrate with existing client wordpress site. The Impact Map dynamically pulls projects from Wordpress backend and presents data as pins on a map. Using JS the map can be filtered by site users based on different project categories and regions. Project will be published in the fall of 2024 - Developed in web developer role with Entremission.",
+    details: "A custom wordpress plugin developed to integrate with exisiting client wordpress site and to visually showcase all impact initiatives of Canadian Ocean Literacy Coalition (COLC) members. The map can be dynamically filtered by site users based on different project categories and regions for easy searching. The Impact Map dynamically pulls projects from Wordpress backend and presents data as pins on a map. Specifically developed so that backend categories can easily be added/removed without any code modifications to ensure client-side content management. Project will be published in the fall of 2024 - Developed in web developer role with Entremission.",
     specs: "CSS | HTML | Javascript | PHP | Wordpress | ACF Pro",
     url: "",
   },
