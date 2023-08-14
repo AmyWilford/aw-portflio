@@ -5,7 +5,7 @@ const ProjectList = [
     altTag: "Equality Fund: The Conversation",
     title: "Equality Fund: The Conversation",
     details:
-      "The Equality Fund's Conversation Page is an exclusive digital home for community resources and news from across the Equality Fund's work. Developed from an initial design specs and HTML template to be integrated into client's existing Wordpress theme. This page dynamically pulls content from the client's wordpress backend to enable up to date content management and ensure simplified client-side site maintenance. Built in web developer role with Entremission.",
+      "The Equality Fund's Conversation Page is an exclusive digital home for community resources and news from across the Equality Fund's work. Developed from designer specs and HTML template to be integrated into client's existing Wordpress theme. This page dynamically pulls content from the client's wordpress backend to enable up to date content management and ensure simplified client-side site maintenance. Built in web developer role with Entremission.",
     specs: "CSS | HTML | JavaScript | PHP | Wordpress | ACF Pro ",
     url: "https://equalityfund.ca/the-conversation/",
   },
@@ -64,7 +64,8 @@ const ProjectList = [
     src: "./assets/img-javascriptmugs.png",
     altTag: "JavaScript: Custom Mugs",
     title: "JavaScript: Custom Mugs",
-    details: "An e-commerce store where users can design and order their own custom mugs. JavaScript Custom Mugs is responsive and mobile-friendly full-stack application built using MERN-stack. Includes an integrated payment platform using Stripe and secure user accounts with password security with JWT and Bcrypt.",
+    details:
+      "An e-commerce store where users can design and order their own custom mugs. JavaScript Custom Mugs is responsive and mobile-friendly full-stack application built using MERN-stack. Includes an integrated payment platform using Stripe and secure user accounts with password security with JWT and Bcrypt.",
     specs:
       "CSS | Express | GraphQL | HTML | JavaScript | JWT | MongoDB | Node.js | React.js | Stripe",
     url: "https://whispering-inlet-47426.herokuapp.com/",
@@ -83,7 +84,8 @@ const ProjectList = [
     src: "./assets/img-impactmap.png",
     altTag: "Canadian Ocean Literacy Coalition: Impact Map",
     title: "Canadian Ocean Literacy Coalition: Impact Map",
-    details: "A custom wordpress plugin developed to integrate with exisiting client wordpress site and to visually showcase all impact initiatives of Canadian Ocean Literacy Coalition (COLC) members. The map makes searching for projects easy with dynamic filters based on project details. The Impact Map dynamically pulls projects from a Wordpress backend and presents data as pins on a map. Specifically developed so that backend categories can easily be added/removed without any code modifications to ensure client-side content management. Project will be published in the fall of 2024 - Built in Web Developer role with Entremission.",
+    details:
+      "A custom wordpress plugin developed to integrate with exisiting client wordpress site and to visually showcase all impact initiatives of Canadian Ocean Literacy Coalition (COLC) members. The map makes searching for projects easy with dynamic filters based on project details. The Impact Map dynamically pulls projects from a Wordpress backend and presents data as pins on a map. Specifically developed so that backend categories can easily be added/removed without any code modifications to ensure client-side content management. Project will be published in the fall of 2024 - Built in Web Developer role with Entremission.",
     specs: "CSS | HTML | Javascript | PHP | Wordpress | ACF Pro",
     url: "",
   },
