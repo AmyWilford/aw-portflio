@@ -16,7 +16,7 @@ export default function Contact() {
               <div className="row gx-0">
                 <div className="col-4 text-uppercase fw-bold">Email</div>
                 <div className="col-8 text-end custom-decoration">
-                  wilford.amy <span class="email-at">at</span> gmail.com
+                  wilford.amy <span className="email-at">at</span> gmail.com
                 </div>
               </div>
               <hr></hr>

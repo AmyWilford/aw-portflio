@@ -59,33 +59,34 @@ const ProjectList = [
     specs: "CSS | HTML | JavaScript | Bands in Town API | Swiper API",
     url: "https://pkewx3.com/",
   },
-  {
-    id: 7,
-    src: "./assets/img-javascriptmugs.png",
-    altTag: "JavaScript: Custom Mugs",
-    title: "JavaScript: Custom Mugs",
-    details:
-      "An e-commerce store where users can design and order their own custom mugs. JavaScript Custom Mugs is responsive and mobile-friendly full-stack application built using MERN-stack. Includes an integrated payment platform using Stripe and secure user accounts with password security with JWT and Bcrypt.",
-    specs:
-      "CSS | Express | GraphQL | HTML | JavaScript | JWT | MongoDB | Node.js | React.js | Stripe",
-    url: "https://whispering-inlet-47426.herokuapp.com/",
-  },
   // {
-  //   id: 8,
-  //   src: "",
-  //   altTag: "Canadian Environmental Law Archive",
-  //   title: "Canadian Environmental Law Archive",
-  //   details: "",
-  //   specs: "CSS | HTML | Javascript | PHP | Wordpress | SearchWP | ACF Pro ",
-  //   url: "",
+  //   id: 7,
+  //   src: "./assets/img-javascriptmugs.png",
+  //   altTag: "JavaScript: Custom Mugs",
+  //   title: "JavaScript: Custom Mugs",
+  //   details:
+  //     "An e-commerce store where users can design and order their own custom mugs. JavaScript Custom Mugs is responsive and mobile-friendly full-stack application built using MERN-stack. Includes an integrated payment platform using Stripe and secure user accounts with password security with JWT and Bcrypt.",
+  //   specs:
+  //     "CSS | Express | GraphQL | HTML | JavaScript | JWT | MongoDB | Node.js | React.js | Stripe",
+  //   url: "https://whispering-inlet-47426.herokuapp.com/",
   // },
+  {
+    id: 8,
+    src: "./assets/img-cela.png",
+    altTag: "Canadian Environmental Law Archive",
+    title: "Canadian Environmental Law Archive",
+    details:
+      "A custom WordPress theme developed to house a digital library and search-able archive of over 8,000+ legal records. Developed to replace an old interface and to improve accessibility of documents. Customized using ACF Pro to define taxonomies and field groups to preserve integrity of existing archival data-sets. Used SearchWP to integrate a search engine that dynamically searches site contents (custom posts and attachments), and to create advanced search filters using meta & tax queries. Project has been in development from May 2023 - September 2023 and will be launched in the fall.",
+    specs: "CSS | HTML | Javascript | PHP | Wordpress | ACF Pro | SearchWP",
+    url: "",
+  },
   {
     id: 9,
     src: "./assets/img-impactmap.png",
     altTag: "Canadian Ocean Literacy Coalition: Impact Map",
     title: "Canadian Ocean Literacy Coalition: Impact Map",
     details:
-      "A custom wordpress plugin developed to integrate with exisiting client wordpress site and to visually showcase all impact initiatives of Canadian Ocean Literacy Coalition (COLC) members. The map makes searching for projects easy with dynamic filters based on project details. The Impact Map dynamically pulls projects from a Wordpress backend and presents data as pins on a map. Specifically developed so that backend categories can easily be added/removed without any code modifications to ensure client-side content management. Project will be published in the fall of 2024 - Built in Web Developer role with Entremission.",
+      "A custom wordpress plugin developed to integrate with exisiting client wordpress site and to visually showcase all impact initiatives of Canadian Ocean Literacy Coalition (COLC) members. The Impact Map dynamically pulls projects from a Wordpress backend and presents data as pins on a map. Data filter options allow users to dynamically serach for projects matching their unique set of criteria. Project has been in development from January 2023 - September 2023 and will be launched in the fall.",
     specs: "CSS | HTML | Javascript | PHP | Wordpress | ACF Pro",
     url: "",
   },

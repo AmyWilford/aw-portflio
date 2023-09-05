@@ -21,6 +21,8 @@
 
 .about-list-container {
     column-count: 3;
+    max-width: 80%;
+    padding-left: 2rem
 }
 .section-divider {
     color: #FFD230;
@@ -87,6 +89,9 @@ button{
     }
     .about-list-container {
         column-count: 2;
+        max-width: 95%;
+        padding-left: .5rem
+
     }
 }
 

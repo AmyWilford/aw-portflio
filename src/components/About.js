@@ -10,7 +10,7 @@ export default function About() {
       <div className="row d-flex align-items-center justify-content-center">
         <div className="col-md-7 col-12">
           <div className="pb-5" id="bio">
-            With a decade of professional experience spanning Arts & Culture,
+            With professional experience spanning the Arts & Culture,
             Education, and Technology sectors, I am a Web Developer who brings a
             multifaceted background to the table. From Teacher, Program Manager
             and now, Developer, my diverse expertise fuels my fresh perspective
@@ -18,7 +18,7 @@ export default function About() {
             embrace collaboration with an open mind, infusing creativity into
             every project while prioritizing efficiency and utility. I am an
             imaginative problem solver and quick learner with a keen attention
-            to detail who can turn big ideas into tangible realities.
+            to detail who can turn ideas into tangible realities.
           </div>
 
           {/* <hr className="section-divider section-divider-web"></hr> */}
@@ -60,8 +60,7 @@ export default function About() {
           <div className="about-list-container">
             <ul>
               <li>Bootstrap</li>
-              <li>CSS3</li>
-              <li>GraphQL</li>
+              <li>CSS</li>
               <li>Express</li>
               <li>Handlebars</li>
               <li>HTML</li>
@@ -74,7 +73,7 @@ export default function About() {
               <li>React.js</li>
               <li>React Native</li>
               <li>REST API</li>
-              <li>SASS</li>
+              <li>SCSS/SASS</li>
               <li>Wordpress</li>
               <li>XML</li>
             </ul>
@@ -87,11 +86,12 @@ export default function About() {
           <div className="about-list-container">
             <ul>
               <li>Agile Methodology</li>
+              <li>Figma</li>
               <li>Github</li>
-              <li>Heroku</li>
               <li>Insomnia</li>
-              <li>MongoDB Atlas</li>
-              <li>TDD</li>
+              <li>MongoDB Compass</li>
+              <li>Slack</li>
+              <li>Test Driven Development</li>
             </ul>
           </div>
         </div>
